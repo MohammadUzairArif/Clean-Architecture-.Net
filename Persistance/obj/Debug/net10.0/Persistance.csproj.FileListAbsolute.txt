@@ -1,0 +1,12 @@
+C:\Users\PMLS\Desktop\Asp.net\Clean Architecture\Persistance\bin\Debug\net10.0\Persistance.deps.json
+C:\Users\PMLS\Desktop\Asp.net\Clean Architecture\Persistance\bin\Debug\net10.0\Persistance.dll
+C:\Users\PMLS\Desktop\Asp.net\Clean Architecture\Persistance\bin\Debug\net10.0\Persistance.pdb
+C:\Users\PMLS\Desktop\Asp.net\Clean Architecture\Persistance\obj\Debug\net10.0\Persistance.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PMLS\Desktop\Asp.net\Clean Architecture\Persistance\obj\Debug\net10.0\Persistance.AssemblyInfoInputs.cache
+C:\Users\PMLS\Desktop\Asp.net\Clean Architecture\Persistance\obj\Debug\net10.0\Persistance.AssemblyInfo.cs
+C:\Users\PMLS\Desktop\Asp.net\Clean Architecture\Persistance\obj\Debug\net10.0\Persistance.csproj.CoreCompileInputs.cache
+C:\Users\PMLS\Desktop\Asp.net\Clean Architecture\Persistance\obj\Debug\net10.0\Persistance.sourcelink.json
+C:\Users\PMLS\Desktop\Asp.net\Clean Architecture\Persistance\obj\Debug\net10.0\Persistance.dll
+C:\Users\PMLS\Desktop\Asp.net\Clean Architecture\Persistance\obj\Debug\net10.0\refint\Persistance.dll
+C:\Users\PMLS\Desktop\Asp.net\Clean Architecture\Persistance\obj\Debug\net10.0\Persistance.pdb
+C:\Users\PMLS\Desktop\Asp.net\Clean Architecture\Persistance\obj\Debug\net10.0\ref\Persistance.dll
