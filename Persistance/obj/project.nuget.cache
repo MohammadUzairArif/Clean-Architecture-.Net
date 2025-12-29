@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "YiNwOuiN9ys=",
+  "dgSpecHash": "/gDFfQW7v4k=",
   "success": true,
   "projectFilePath": "C:\\Users\\PMLS\\Desktop\\Asp.net\\Clean Architecture\\Persistance\\Persistance.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\PMLS\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.1\\microsoft.extensions.dependencyinjection.abstractions.10.0.1.nupkg.sha512"
+  ],
   "logs": []
 }

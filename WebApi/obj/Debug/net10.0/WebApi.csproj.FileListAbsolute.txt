@@ -34,3 +34,11 @@ C:\Users\PMLS\Desktop\Asp.net\Clean Architecture\WebApi\obj\Debug\net10.0\WebApi
 C:\Users\PMLS\Desktop\Asp.net\Clean Architecture\WebApi\obj\Debug\net10.0\WebApi.genruntimeconfig.cache
 C:\Users\PMLS\Desktop\Asp.net\Clean Architecture\WebApi\obj\Debug\net10.0\ref\WebApi.dll
 C:\Users\PMLS\Desktop\Asp.net\Clean Architecture\WebApi\bin\Debug\net10.0\Scalar.AspNetCore.dll
+C:\Users\PMLS\Desktop\Asp.net\Clean Architecture\WebApi\bin\Debug\net10.0\Application.dll
+C:\Users\PMLS\Desktop\Asp.net\Clean Architecture\WebApi\bin\Debug\net10.0\Domain.dll
+C:\Users\PMLS\Desktop\Asp.net\Clean Architecture\WebApi\bin\Debug\net10.0\Infrastructure.dll
+C:\Users\PMLS\Desktop\Asp.net\Clean Architecture\WebApi\bin\Debug\net10.0\Persistance.dll
+C:\Users\PMLS\Desktop\Asp.net\Clean Architecture\WebApi\bin\Debug\net10.0\Application.pdb
+C:\Users\PMLS\Desktop\Asp.net\Clean Architecture\WebApi\bin\Debug\net10.0\Infrastructure.pdb
+C:\Users\PMLS\Desktop\Asp.net\Clean Architecture\WebApi\bin\Debug\net10.0\Persistance.pdb
+C:\Users\PMLS\Desktop\Asp.net\Clean Architecture\WebApi\bin\Debug\net10.0\Domain.pdb

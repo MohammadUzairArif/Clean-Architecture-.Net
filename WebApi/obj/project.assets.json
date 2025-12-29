@@ -52,6 +52,55 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Application.dll": {}
+        }
+      },
+      "Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Domain.dll": {}
+        }
+      },
+      "Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "Application": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Infrastructure.dll": {}
+        }
+      },
+      "Persistance/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "Application": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Persistance.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Persistance.dll": {}
+        }
       }
     }
   },
@@ -110,11 +159,34 @@
         "scalar.aspnetcore.2.11.10.nupkg.sha512",
         "scalar.aspnetcore.nuspec"
       ]
+    },
+    "Application/1.0.0": {
+      "type": "project",
+      "path": "../Application/Application.csproj",
+      "msbuildProject": "../Application/Application.csproj"
+    },
+    "Domain/1.0.0": {
+      "type": "project",
+      "path": "../Domain/Domain.csproj",
+      "msbuildProject": "../Domain/Domain.csproj"
+    },
+    "Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../Infrastructure/Infrastructure.csproj",
+      "msbuildProject": "../Infrastructure/Infrastructure.csproj"
+    },
+    "Persistance/1.0.0": {
+      "type": "project",
+      "path": "../Persistance/Persistance.csproj",
+      "msbuildProject": "../Persistance/Persistance.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net10.0": [
+      "Application >= 1.0.0",
+      "Infrastructure >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 10.0.0",
+      "Persistance >= 1.0.0",
       "Scalar.AspNetCore >= 2.11.10"
     ]
   },
@@ -149,7 +221,17 @@
       "frameworks": {
         "net10.0": {
           "targetAlias": "net10.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\PMLS\\Desktop\\Asp.net\\Clean Architecture\\Application\\Application.csproj": {
+              "projectPath": "C:\\Users\\PMLS\\Desktop\\Asp.net\\Clean Architecture\\Application\\Application.csproj"
+            },
+            "C:\\Users\\PMLS\\Desktop\\Asp.net\\Clean Architecture\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\PMLS\\Desktop\\Asp.net\\Clean Architecture\\Infrastructure\\Infrastructure.csproj"
+            },
+            "C:\\Users\\PMLS\\Desktop\\Asp.net\\Clean Architecture\\Persistance\\Persistance.csproj": {
+              "projectPath": "C:\\Users\\PMLS\\Desktop\\Asp.net\\Clean Architecture\\Persistance\\Persistance.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -196,7 +278,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.AspNetCore": "(,10.0.32767]",
           "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",

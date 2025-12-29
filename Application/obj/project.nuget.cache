@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "pqq5rI0TPf0=",
+  "dgSpecHash": "HyUys5fwoEw=",
   "success": true,
   "projectFilePath": "C:\\Users\\PMLS\\Desktop\\Asp.net\\Clean Architecture\\Application\\Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\PMLS\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.1\\microsoft.extensions.dependencyinjection.abstractions.10.0.1.nupkg.sha512"
+  ],
   "logs": []
 }
