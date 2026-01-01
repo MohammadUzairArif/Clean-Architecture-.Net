@@ -13,6 +13,18 @@
     }
   ],
   "paths": {
+    "/api/Products": {
+      "get": {
+        "tags": [
+          "Products"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/WeatherForecast": {
       "get": {
         "tags": [
@@ -89,6 +101,9 @@
     }
   },
   "tags": [
+    {
+      "name": "Products"
+    },
     {
       "name": "WeatherForecast"
     }
